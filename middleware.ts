@@ -1,5 +1,6 @@
 import { NextRequest } from 'next/server';
 import { selectActiveExperiments } from '@ninetailed/experience.js';
+console.log(selectActiveExperiments)
 // comment import above to remove the issue
 // error Error [TypeError]: labels.entries is not a function or its return value is not iterable
 
